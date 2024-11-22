@@ -1,0 +1,12 @@
+<script>
+    const nota = Number(prompt(`Informe uma nota`))
+
+    let mensagem = "";
+    (nota == 10.0 || 9.0) ? mensagem = `Conceito A`:
+    (nota == 8.9 || 8.0 ) ? mensagem = `Conceito B`:
+    (nota == 7.9 || 7.0) ? mensagem = `Conceito C`:
+    (nota == 6.9 || 6.0) ? mensagem = `Conceito D`:
+    (nota == 5.9 || 0) ? mensagem = `Conceito E `: mensagem = "dados invalidos";
+
+    document.write(mensagem)
+</script>

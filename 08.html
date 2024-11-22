@@ -1,0 +1,13 @@
+<script>
+    const litro = Number(prompt(`Informe o preço do combustivel`));
+    const quantidade = Number(prompt(`Informe a quantidades de litro que voce gasta para ir ate o trabalho diariamente`))
+    const transporte = Number(prompt(`Informe o preço do transporte publico`))
+
+    let mensagem = "";
+    let precocarro = (litro * quantidade);
+    let transportepublico = (transporte * 5) * 2;
+    (precocarro) ? mensagem = "O transporte público é mais barato" : mensagem = "ir de carro é mais barato";
+
+    document.write(mensagem);
+
+</script>

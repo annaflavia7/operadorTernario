@@ -1,0 +1,17 @@
+<script>
+    const produto = Number(prompt(`Informe o preço do produto`))
+    let mensagem = "";
+
+     let aumento1 = precoproduto * 1.20;
+     let aumento2 = precoproduto * 1.15;
+     let aumento3 = precoproduto * 1.15;
+     let aumento4 = precoproduto * 1.5;
+
+    (produto <= 280) ? mensagem =`O aumento do produto vai ser de ${aumento1}`: (produto <= 700) ? mensagem = `O aumento do produto vai ser de ${aumento2}`:
+    (produto <= 1500) ? mensagem = `O aumento do produto vai ser de ${aumento3}` 
+    : mensagem = `O aumento do produto vai ser de ${aumento4}`;
+
+    document.write(mensagem);
+
+
+</script>
