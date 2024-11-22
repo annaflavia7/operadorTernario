@@ -1,0 +1,13 @@
+<script>
+    const agua = Number(prompt(`Informe o valor da sua conta de agua`));
+    const energia = Number(prompt(`Informe o valor da sua conta de energia elétrica`));
+    const telefone = Number(prompt(`Informe o valor da sua conta de telefone`));
+    const mercado =Number(prompt(`Informe o valor da sua compra do mercado`));
+    const remuneracao = Number(prompt(`Informe o seu salario`));
+
+    let total = agua + energia + telefone + mercado;
+    let restoMaior = despesas - remuneracao;
+    let restoMenor = remuneracao - despesas;
+    let mensagem = "";
+    (despesas > remuneracao)? mensagem="Suas despesas são maiores que a sua remuneração" : (remuneracao < despesas) ? mensagem = "Você conseguiu pagar todas as contas previstas"
+</script>
